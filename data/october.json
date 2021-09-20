@@ -1,0 +1,72 @@
+[    
+    {
+        "categoryName": "Tales from the Crypt",
+        "items": [
+            {
+                "title": "Tales from the Crypt",
+                "youtube": "https://youtu.be/_ol4MvRkWek",
+                "year": "1972"
+            },
+            {
+                "title": "Tales from the Crypt Retrospective",
+                "youtube": "",
+                "year": "1989 - 1996"
+            }
+        ]
+    },
+    {
+        "categoryName": "Pure 80s",
+        "items": [
+            {
+                "title": "Halloween III: Season of the Witch",
+                "youtube": "https://youtu.be/9MnaYzBhx0A",
+                "year": "1982"
+            },
+            {
+                "title": "The Stuff",
+                "youtube": "https://youtu.be/e_ROA_ZEGfA",
+                "year": "1985"
+            },
+            {
+                "title": "Lifeforce",
+                "youtube": "https://youtu.be/KpTNBFbYqUI",
+                "year": "1985"
+            }
+        ]
+    },
+    {
+        "categoryName": "John Carpenter: Deep Cuts",
+        "items": [
+            {
+                "title": "The Fog",
+                "youtube": "https://youtu.be/nOZwnivtLbc",
+                "year": "1980"
+            },
+            {
+                "title": "In the Mouth of Madness",
+                "youtube": "https://youtu.be/AlugldzO9zY",
+                "year": "1995"
+            },
+            {
+                "title": "Christine",
+                "youtube": "https://youtu.be/0Xq75RR7otQ",
+                "year": "1983"
+            }
+        ]
+    },
+    {
+        "categoryName": "A Nice Pair",
+        "items": [
+            {
+                "title": "Night of the Creeps",
+                "youtube": "https://youtu.be/_PmPuYg6nqM",
+                "year": "1986"
+            },
+            {
+                "title": "Slither",
+                "youtube": "https://youtu.be/2-f8wU6Fpeo",
+                "year": "2006"
+            }
+        ]
+    }
+]
