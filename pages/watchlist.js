@@ -17,12 +17,12 @@ const Watchlist = () => {
           The Watchlist
         </h1>
 
-        <div className={styles.grid}>
+        <div className={styles.content}>
           {
             data.map((category, i) => {
               const { categoryName, items } = category;
                 return (
-                  <div className="category" key={`cat-${i}`}>
+                  <div className={styles.category} key={`cat-${i}`}>
                     <h2>{ categoryName }</h2>
                     { items.map((item, i) => <Tile {...item} key={`item-${i}`} />) }
                   </div>
@@ -42,7 +42,7 @@ const Watchlist = () => {
 const Tile = (props) => {
   const { title, youtube, year } = props;
   return (
-    <div className="">
+    <div className={styles.tile}>
       <h3>{ title } ({ year })</h3>
       <p>{ youtube }</p>
     </div>

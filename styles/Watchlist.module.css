@@ -1,0 +1,19 @@
+.container {
+    background: #24262D;
+    color: #fff;
+    height: 100vh;
+    padding: 20px;
+    width: 100vw;
+}
+
+.main {
+    
+}
+
+.content {
+    display: flex;
+}
+
+.category {
+    /* display: flex; */
+}

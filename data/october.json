@@ -31,6 +31,11 @@
                 "title": "Lifeforce",
                 "youtube": "https://youtu.be/KpTNBFbYqUI",
                 "year": "1985"
+            },
+            {
+                "title": "Night of the Creeps",
+                "youtube": "https://youtu.be/_PmPuYg6nqM",
+                "year": "1986"
             }
         ]
     },
@@ -51,21 +56,6 @@
                 "title": "Christine",
                 "youtube": "https://youtu.be/0Xq75RR7otQ",
                 "year": "1983"
-            }
-        ]
-    },
-    {
-        "categoryName": "A Nice Pair",
-        "items": [
-            {
-                "title": "Night of the Creeps",
-                "youtube": "https://youtu.be/_PmPuYg6nqM",
-                "year": "1986"
-            },
-            {
-                "title": "Slither",
-                "youtube": "https://youtu.be/2-f8wU6Fpeo",
-                "year": "2006"
             }
         ]
     }
