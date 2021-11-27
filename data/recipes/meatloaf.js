@@ -1,4 +1,4 @@
-{
+const meatloaf = {
     "name": "Meatloaf",
     "nickname": "",
     "tags": [
@@ -20,3 +20,5 @@
     "directions": [
     ]
 }
+
+export default meatloaf;

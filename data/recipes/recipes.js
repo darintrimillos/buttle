@@ -1,5 +1,5 @@
-import meatloaf from './meatloaf.json';
-import teriyaki_chicken from './teriyaki_chicken.json';
+import meatloaf from './meatloaf';
+import teriyaki_chicken from './teriyaki_chicken';
 
 const recipes = {
     meatloaf,

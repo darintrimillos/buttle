@@ -1,4 +1,4 @@
-{
+const japanese_curry = {
     "name": "Japanese Curry",
     "nickname": "",
     "tags": [
@@ -19,4 +19,6 @@
     ],
     "directions": [
     ]
-}
+};
+
+export default japanese_curry;
