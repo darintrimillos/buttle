@@ -1,9 +1,11 @@
+@import '../../styles/variables.scss';
+
 .menuItem {
     max-width: 400px;
     text-align: center;
 
     h3,
     p {
-        font-family: 'Vollkorn', serif;
+        font-family: $bodyFont;
     }
 }
