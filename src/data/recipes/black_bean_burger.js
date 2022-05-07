@@ -1,4 +1,4 @@
-const blackBeanBurger = {
+const black_bean_burger = {
     "name": "Black Bean Burger",
     "nickname": "",
     "tags": [
@@ -35,4 +35,4 @@ const blackBeanBurger = {
     ]
 };
 
-export default blackBeanBurger;
+export default black_bean_burger;
