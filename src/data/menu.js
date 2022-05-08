@@ -2,7 +2,7 @@ const menu = [
     {
         name: "Bachan's Teriyaki Chicken",
         description: 'Old-school teriyaki chicken (thighs), cooked on the stovetop just like a bachan would. Served with rice and a simple veggie.',
-        relatedRecipes: ['teriyaki_chicken'],
+        slug: 'teriyakiChicken',
         tags: ['basic', 'dinner', 'comfort']
     }
 ];
