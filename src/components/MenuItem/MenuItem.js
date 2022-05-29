@@ -7,7 +7,7 @@ const MenuItem = ({ name, description, slug }) => {
         <div className={styles.menuItem}>
             <h3>{name}</h3>
             <p>{ description }</p>
-            <p><FontAwesomeIcon icon={faFileLines} />{slug}</p>
+            <p><FontAwesomeIcon icon={faFileLines} size="sm" style={{ fontSize: '14px' }} />{slug}</p>
         </div>
     )
 }

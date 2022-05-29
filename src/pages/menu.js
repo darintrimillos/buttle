@@ -1,6 +1,6 @@
 import MenuItem from '../components/MenuItem/MenuItem';
 import menu, { menuTags } from '../data/menu';
-// import recipes from '../data/recipes/recipes';
+import recipes from '../data/recipes';
 import Head from 'next/head';
 import styles from '../styles/Menu.module.scss';
 
@@ -20,6 +20,8 @@ const Menu = ({ menu }) => {
             <h1 className={styles.title}>THE HOUSE MENU</h1>
 
             {/* Filters should go here */}
+
+            {/*  */}
 
             <section className={styles.menuItemsContainer}>            
                 {menu.map((item, i) => <MenuItem key={`menuItem-${i}`} {...item} />)}
