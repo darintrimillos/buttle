@@ -13,4 +13,4 @@ const menuTags = [
     'dinner'
 ];
 
-export { menu as default, menuTags };
+export { menu, menuTags };
