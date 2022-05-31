@@ -1,5 +1,6 @@
 const meatloaf = {
     "name": "Meatloaf",
+    "slug": "meatloaf",
     "nickname": "",
     "tags": [
         "dinner",

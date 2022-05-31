@@ -1,5 +1,6 @@
 const black_bean_burger = {
     "name": "Black Bean Burger",
+    "slug": "black-bean-burger",
     "nickname": "",
     "tags": [
         "dinner",

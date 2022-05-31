@@ -1,5 +1,6 @@
 const japanese_curry = {
     "name": "Japanese Curry",
+    "slug": "japanese-curry",
     "nickname": "",
     "tags": [
         "dinner",
