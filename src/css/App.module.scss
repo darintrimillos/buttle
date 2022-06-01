@@ -1,10 +1,57 @@
-@import 'css/colors.module.scss';
+@import 'css/variables.module.scss';
 
 .wrapper {
-    background: $background;
+    background: lighten($background, 10%);
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr 3fr;
     height: 100vh;
     overflow: hidden;
 }
+
+.sidebar {
+    align-items: center;
+    background: $background;
+    display: flex;
+    flex-direction: column;
+
+    .sidebarContent {
+        margin: 0 auto;
+    }
+
+    h1 {
+        color: #fff;
+        font-family: $sans;
+        font-size: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    ul {
+        left: -38px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: $white;
+        font-family: $slab;
+        font-size: 1.5em;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
 
 // .App {
 //   text-align: center;
