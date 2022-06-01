@@ -1,6 +1,5 @@
-import './App.css';
+import styles from 'css/App.module.scss';
 import { RecipeBox, Menu } from 'pages/';
-import { useRecipes } from 'hooks/use-recipes';
 import {
     BrowserRouter as Router,
     Routes,
@@ -9,17 +8,16 @@ import {
   } from 'react-router-dom';
 
 function App() {
-    const { recipes } = useRecipes();
     return (
-        <div className="wrapper">
+        <div className={styles.wrapper}>
             <Router>
-                <aside className="sidebar">
+                <aside className={styles.sidebar}>
                     <ul>
                         <li><Link to="/">Recipe Box</Link></li>
                         <li><Link to='menu'>Menu</Link></li>
                     </ul>
                 </aside>
-                <main className="main">
+                <main className={styles.main}>
                     <Routes>
                         <Route path="/" element={<RecipeBox />} />
                         <Route path="/menu" element={<Menu />} />
