@@ -7,7 +7,7 @@ const black_bean_burger = {
         "lunch",
         "vegetarian",
         "comfort",
-        "leftovers"
+        "meal prep"
     ],
     "ingredients": [
         "2 (14-oz) cans black beans",

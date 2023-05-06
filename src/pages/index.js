@@ -1,3 +1,3 @@
 export * from './Menu/Menu';
-export * from './recipes/Recipe';
-export * from './recipes/RecipeBox';
+export * from './RecipeBox/Recipe';
+export * from './RecipeBox/RecipeBox';
