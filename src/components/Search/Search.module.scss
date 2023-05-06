@@ -1,0 +1,16 @@
+@import 'css/variables.module.scss';
+
+.search {
+    position: relative;
+}
+
+.icon {
+    left: 10px;
+    position: absolute;
+    top: 7px;
+}
+
+.input {
+    border-radius: $inputRadius;
+    padding: 5px 5px 5px 30px;
+}
